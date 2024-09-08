@@ -119,3 +119,15 @@ function celsiusFahrenheit(paraQual, valor) {
             break;
     }
 }
+
+// desafios hashtag
+
+function tabuada() {
+    for (let i = 1; i <= 10; i++) {
+        let x = i;
+        for (let y = 1; y<=10; y++) {
+            let r = x * y;
+            console.log(`${x} x ${y} = ${r}`)
+        }
+    }
+}
